@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITERA - Beranda</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #004d40;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            background-color: #00796b;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #ffeb3b;
+            transform: scale(1.1);
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+        }
+        main {
+            padding: 20px;
+        }
+        .table-container {
+            overflow-x: auto;
+            max-width: 100%;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            min-width: 600px;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        footer {
+            background-color: #004d40;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        header img {
+            height: 100px; 
+            margin-right: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/logo_itera.png" alt="Logo ITERA">
+        <h1>Selamat Datang di ITERA</h1>
+    </header>
+    
+    <nav>
+        <a href="index.html">Beranda</a>
+        <a href="berita.html">Berita</a>
+    </nav>
+    
+    <main>
+        <h2>Penerimaan Mahasiswa Baru 2025</h2>
+        <p>Institut Teknologi Sumatera (ITERA) membuka pendaftaran mahasiswa baru untuk berbagai program studi.</p>
+        <section>
+            <h3>Program Studi Favorit</h3>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Program Studi</th>
+                            <th>Peminat</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>1</td><td>Farmasi</td><td>909</td></tr>
+                        <tr><td>2</td><td>Teknik Informatika</td><td>811</td></tr>
+                        <tr><td>3</td><td>Teknik Pertambangan</td><td>604</td></tr>
+                        <tr><td>4</td><td>Teknik Industri</td><td>412</td></tr>
+                        <tr><td>5</td><td>Teknik Sipil</td><td>375</td></tr>
+                        <tr><td>6</td><td>Teknologi Pangan</td><td>310</td></tr>
+                        <tr><td>7</td><td>Teknik Biomedis</td><td>295</td></tr>
+                        <tr><td>8</td><td>Teknik Elektro</td><td>222</td></tr>
+                        <tr><td>9</td><td>Teknik Perkeretaapian</td><td>212</td></tr>
+                        <tr><td>10</td><td>Perencanaan Wilayah dan Kota</td><td>207</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Institut Teknologi Sumatera</p>
+    </footer>
+</body>
+</html>

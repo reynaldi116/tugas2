@@ -1,0 +1,172 @@
+<!-- berita.html -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITERA - Berita</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            background-color: #3f51b5;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            width: 100%;
+        }
+        nav {
+            background-color: #1a237e;
+            padding: 10px;
+            text-align: center;
+            width: 100%;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #ffeb3b;
+            transform: scale(1.1);
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+        }
+        .table-container {
+            overflow-x: auto;
+            max-width: 100%;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            min-width: 600px;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        footer {
+            background-color: #3f51b5;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .news-image {
+            width: 100%;
+            max-height: 300px;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+        aside {
+            background-color: #f1f1f1;
+            padding: 15px;
+            margin: 20px;
+            width: 250px;
+            border-radius: 5px;
+        }
+        header img {
+            height: 100px; 
+            margin-right: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/logo_itera.png" alt="Logo ITERA">
+        <h1>Berita Seputar ITERA</h1>
+    </header>
+    
+    <nav>
+        <a href="index.html">Beranda</a>
+        <a href="berita.html">Berita</a>
+    </nav>
+    
+    <div style="display: flex;">
+        <main>
+            <article>
+                <h2>ITERA Open House 2025: Serunya Ngebedah Kampus Impian!</h2>
+                <h3>Antusiasme Pelajar</h3>
+                <img src="images/itera_open_house.jpg" alt="ITERA Open House 2025" class="news-image">
+                <p>ITERA Open House 2025 sukses digelar dan seru banget! Ribuan siswa SMA/SMK dari seluruh Lampung hadir untuk mengenal lebih dekat ITERA.</p>
+                <h4>Kuota Mahasiswa Baru</h4>
+                <p>Tahun ini, ITERA bakal menerima 5.240 mahasiswa baru di 41 program studi S1 dengan pembagian kuota:</p>
+                <ul>
+                    <li>SNBP: minimal 30%</li>
+                    <li>SNBT: minimal 65%</li>
+                    <li>Mandiri: maksimal 5%</li>
+                </ul>
+                <p>Lebih dari 2.000 pelajar dari berbagai SMA/SMK mengikuti acara ini pada Sabtu, 25 Januari 2025, di Gedung Kuliah Umum (GKU) 2 ITERA.</p>
+                <h4>Halaman Lengkap PMB ITERA</h4>
+                    <p>Berita-berita penerimaan mahasiswa baru ITERA di tautan  berikut ini.
+                        <a href="https://pmb.itera.ac.id/">PMB ITERA</a></p>
+            </article>
+            
+            <article>
+                <br>
+                <br>
+                <h2>ITERA Deklarasi Anti-Judi Online</h2>
+                <h3>Komitmen Civitas Akademika</h3>
+                <img src="images/itera_anti_judol.JPG" alt="Deklarasi Anti-Judi Online" class="news-image">
+                <p>Bandar Lampung – ITERA menggelar Deklarasi Anti-Judi Online di gerbang utama kampus pada Jumat (14/2), demi menciptakan lingkungan akademik bersih dari perjudian daring.</p>
+                <h4>Poin-Poin Deklarasi</h4>
+                <p>Puncak acara ditandai dengan pembacaan deklarasi oleh perwakilan dosen, tenaga pendidik, dan mahasiswa, yang mencakup tiga poin utama:</p>
+                <ol>
+                    <li>Menyerukan pemberantasan judi online dalam segala bentuknya.</li>
+                    <li>Menuntut aparat penegak hukum untuk bertindak tegas terhadap pelaku bisnis judi online.</li>
+                    <li>Mendukung edukasi masyarakat mengenai dampak negatif judi online.</li>
+                </ol>
+                <h5>Testimoni Mahasiswa</h5>
+                <p>Presiden Mahasiswa KM-ITERA menyoroti dampak finansial judi online, yang sering kali berujung pada penggunaan pinjaman online.</p>
+                <h6>Berita Terlengkap Seputar ITERA</h6>
+                <p>Akses berita-berita terkini ITERA di tautan  berikut ini. Ada banyak informasi edukatif dan kerjasam yang dilakukan oleh itera.
+                    <a href="https://www.itera.ac.id/berita/">Berita ITERA</a></p>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </article>
+        </main>
+
+        <aside>
+            <h3>Berita Terkait</h3>
+            <ul>
+                <li>
+                    <img src="images/berita1.jpg" alt="Berita Terkait" style="width: 100%; border-radius: 5px; margin-bottom: 10px;">
+                    <a href="https://www.itera.ac.id/kisah-inspiratif-menggapai-prestasi-dari-tiga-wisudawan-terbaik-itera/">
+                    Kisah Inspiratif Menggapai Prestasi dari Tiga Wisudawan Terbaik Itera</a></li>
+                <li>    
+                    <img src="images/berita2.jpg" alt="Berita Terkait" style="width: 100%; border-radius: 5px; margin-bottom: 10px;">
+                    <a href="https://www.itera.ac.id/wujudkan-lingkungan-asri-sobat-bumi-lampung-tanam-100-bibit-pohon-di-itera/">
+                    Wujudkan Lingkungan Asri, Sobat Bumi Lampung Tanam 100 Bibit Pohon di Itera</a></li>
+                <li>
+                    <img src="images/berita3.jpg" alt="Berita Terkait" style="width: 100%; border-radius: 5px; margin-bottom: 10px;">
+                    <a href="https://www.itera.ac.id/itera-bersama-ptpn-i-regional-iv-tanam-1-000-mangrove-dan-replantasi-terumbu-karang-di-pesawaran/">
+                    Itera Bersama PTPN I Regional IV Tanam 1.000 Mangrove di Pesawaran</a></li>
+            </ul>
+        </aside>
+    </div>
+    
+    <footer>
+        <h6>&copy; 2025 Institut Teknologi Sumatera</h6>
+    </footer>
+</body>
+</html>
